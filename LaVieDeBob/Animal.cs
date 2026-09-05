@@ -1,4 +1,5 @@
-﻿namespace Animal;
+﻿namespace LaVieDeBob;
+
 public abstract class Animal
 {
 
@@ -8,7 +9,7 @@ public abstract class Animal
     public double CoutRepas { get; set; }
     public int DelaiRepas { get; set; }
 
-    // Constructeur corrigé
+
     public Animal(string nom, bool aFaim, DateTime dernierRepas, double coutRepas, int delaiRepas)
     {
         Nom = nom;
@@ -18,7 +19,6 @@ public abstract class Animal
         DelaiRepas = delaiRepas;
     }
 
-    // Méthodes prêtes pour l'héritage
     public virtual void Exprimer()
     {
     }

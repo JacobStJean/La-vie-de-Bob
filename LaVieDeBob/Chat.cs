@@ -1,4 +1,4 @@
-﻿namespace Animal;
+﻿namespace LaVieDeBob;
 
 public class Chat : Animal
 {

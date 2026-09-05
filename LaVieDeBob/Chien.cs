@@ -1,4 +1,5 @@
-﻿namespace Animal;
+﻿namespace LaVieDeBob;
+
 public class Chien : Animal
 {
     public string Race { get; set; }
